@@ -1,0 +1,110 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+   
+    /*font-size: 14px;*/
+    background-image: url("../images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Margin bottom by footer height
+    margin-bottom: 60px;*/
+}
+#timer{
+      font-family: 'harryPotter',serif;
+}
+#game {
+    font-family: 'harryPotter', serif;
+ 
+}
+#message{
+font-size: 24px;
+}
+
+
+#main {
+    font-family: 'harryPotter', serif;
+    background-color:  white;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+h2,
+h3 {
+    font-family: 'harryPotter', serif;
+    font-size: 24px
+}
+
+h1 {
+    color: #73221b;
+}
+
+.btn-primary,
+.reset {
+    background-color: #73221b;
+    color: white;
+    font-family: 'harryPotter', serif;
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 10%;
+}
+
+.btn-primary:hover,
+.reset:hover {
+    background-color: #862a22;
+}
+
+.container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+}
+
+.thisChoice:hover {
+    background-color: #73221b;
+    color: white;
+    padding: 10px;
+}
+
+#gif img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer */
+    height: 60px;
+    background-color: #341c50;
+    text-align: center;
+    margin-top: 5%;
+    color: #eabafa;
+    font-family: 'harryPotter',serif;
+    font-size: 24px;
+}
+@font-face {
+    font-family: "harryPotter";
+    src: url("../../Harry_Potter/HARRP___.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
